@@ -1,17 +1,28 @@
 body {
-	color: whilte;
-	font-size: $font-size;
-	background:$rand;
-	.main {
-			width: 960px;
-			margin: 0 auto;
-	}
+	background:#999;
+	font-family: helvetica;
 }
 
-.left-bar {
-	@include grid-span(3, 1
+h1, h2, li {
+	color: #555;
 }
 
-.content-area {
-	@include grid-span(9, 4);
+a {
+	color: green;
+}
+
+p {
+	background: #666;
+	color: white;
+	padding: 10px;
+}
+
+.secondary {
+	background: none;
+	color: #777;
+}
+
+#special {
+	background: red;
+	color: white;
 }
